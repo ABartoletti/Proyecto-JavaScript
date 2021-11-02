@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+    html {
+        font-size: 100%;
+        font-family: 'Oswald', sans-serif;
+        
+}
+
+body{
+    /*background-image: url(./img/fondo\ 2.jfif);*/
+    background-color: rgb(241, 225, 181);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: rgb(119, 89, 7);
+}
+
+
+h1{
+    margin-top: 15%;
+    font-size: 10vh;
+    color:rgb(85, 47, 4);
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    align-content: center;
+    text-shadow: 0 0 5px, 0 0 5px #0000FF; 
+    /*background-color: rgb(0, 0, 0);*/
+    
+}
+
+p{
+    font-size: 3vh;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 0 0 5px, 0 0 5px #d4c9a5; 
+    
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(107, 57, 9);
+    background-clip: border-box;
+    border: 5px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    }
+    .card-title {
+    margin-bottom: 0.75rem;
+    color: white;
+    font-size: 170%;
+    text-shadow: 0 0 5px, 0 0 5px #cfc994;
+  
+    }
+
+
+#footerTienda{
+        margin-top: 15%;
+}
+
+#bloqueTiendaH1{
+   width: 20%;
+   
+    padding-right: 4%;
+    
+}
+    
+#cerrarSesion{
+    margin-right: 1%;
+    color: azure;
+
+}
+
+
+
+/*-----------------CONFIGURACION FORM CONTACTO----------------*/
+.form_main {
+    width: 100%;
+   
+}
+.form_main h4 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.heading {
+    border-bottom: 1px solid #fcab0e;
+    padding-bottom: 9px;
+    position: relative;
+    text-shadow: 0 0 5px, 0 0 5px #0000FF;
+    
+    
+    
+}
+.heading span {
+    background: #9e6600 none repeat scroll 0 0;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 75px;
+    
+}   
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt_3[type="text"] {
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt2[type="submit"] {
+    background: #242424 none repeat scroll 0 0;
+    border: 1px solid #4f5c04;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 30%;
+}
+.txt2:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #5793ef;
+    transition: all 0.5s ease 0s;
+}
+.heading{
+    color:#ccc;
+}
+#configurarTituloForm{
+    font-size: 5vh;
+    color: white;
+    text-shadow: 0 0 5px, 0 0 5px #0000FF; 
+    background-color: rgb(114, 83, 16);
+    
+}
+#bloqueForm{
+    margin-top: 10%;
+}
+#footerContacto{
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+/*-----------------CONFIGURACION DE FOOTER---------------------*/
+.fab{
+    width: 50px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.social{
+    position: fixed;
+    right: 0%;
+    top: 0px;
+}
+.social ul{
+    list-style: none;
+    padding: 10px;
+}
+.social a{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 0;
+    transition: 0.1s ease;
+}
+.social a:hover{
+    padding: 10px 25px;
+}
+.configRed{
+    display:flex;
+    
+}
+
+.text-center {
+    text-align: center !important;
+    font-size: 15px;
+}
+
+
+.fab{
+    width: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.social{
+    position: fixed;
+    right: 0%;
+    top: 0px;
+}
+.social ul{
+    list-style: none;
+    padding: 10px;
+}
+.social a{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 0;
+    transition: 0.1s ease;
+}
+.social a:hover{
+    padding: 10px 25px;
+}
+.configRed{
+    display:inline-block;
+    
+}
+.configuracionFooter{
+    margin-top: 50%;
+    
+}
+
+#estiloBotonLogin{
+    color: blanchedalmond;
+    background-color: rgb(5, 7, 90);
+}
+
+/*----------carrousel----------------*/
+
+
+.content-all{
+    width: 200px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 30s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(60deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(180deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(300deg) translateZ(300px);}
+
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+.estiloCarrousel{
+    margin-top: 10%;
+}
+
+
+#tienda{
+    display:flexbox;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#estiloBoton{
+    margin-left: 60%;
+}
+
+.itemCartTotal{
+    background-color: #242424;
+    
+}
+
+.configurarFotoCarro{
+    width: 15%;
+    height: 15%;
+}
+
+
+
+
+
+    #tituloHome{
+        display:none;
+    }
+    #mostrarProductos{
+        display: none;
+    }
+
+    .btn{
+        background-color: rgb(168, 103, 18);
+        border-color: #fff;
+    }
+    .nav-link{
+        color: azure;
+        font-size: 2vh;
+        
+    }
+    .colorItem{
+        background-color: green;
+    }
+    
