@@ -197,7 +197,7 @@ const renderizarTienda = (productos) => {
 		tienda.append (
 				`<div class="col d-flex justify-content-center mb-4">
 			<div class="card" style="width: 18rem;">
-            <img src="../img/${producto.id}.jpg" class="card-img-top" alt="...">
+            <img src="./img/${producto.id}.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${producto.nombre}</h5>
               <p class="card-text">$${producto.precio}</p>
@@ -299,7 +299,7 @@ function renderizarCarro(producto){
 				 
 				<th scope="row"  > </th>	
 						<td class="table__productos">
-						<img src="../img/${producto.idFoto}.jpg" class="configurarFotoCarro" alt="...">
+						<img src="./img/${producto.idFoto}.jpg" class="configurarFotoCarro" alt="...">
 						<h6 class="title">${producto.nombre}</h6>
 						</td>
 						<td class="table__price"><p>${producto.precio}</p></td>
@@ -388,7 +388,7 @@ function leerlocalStorage(){
 		 
 		<th scope="row" > </th>	
 				<td class="table__productos">
-				<img src="../img/${producto.idFoto}.jpg" class="configurarFotoCarro" alt="...">
+				<img src="./img/${producto.idFoto}.jpg" class="configurarFotoCarro" alt="...">
 				<h6 class="title">${producto.nombre}</h6>
 				</td>
 				<td class="table__price"><p>${producto.precio}</p></td>
