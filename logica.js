@@ -361,6 +361,7 @@ btnComprar.onclick = (e) => {
 //BOTON VOLVER A COMPRAR - SE VISUALIZA CUANDO SE REALIZA LA COMPRA Y REFRESCA LA APP PARA REALIZAR UNA NUEVA COMPRA
 btnVolverAComprar.onclick = (e) => {
 	window.location.reload()
+	pills.style.visibility = "hidden"
 	localStorage.removeItem('compra')
 }
 
