@@ -503,19 +503,7 @@ function CarritoTotal(){
 
 
 
-//const tituloHome = document.getElementById("tituloHome")
 
-/*const msj = ()=>{
-	Swal.fire({
-		position: 'center',
-		icon: 'info',
-		title: 'Pase a la tienda y seleccione los productos',
-		showConfirmButton: false,
-		timer: 1500
-	  })
-}
-
-$("#tituloHome").on("click",msj)*/
 
 
 //FUNCION PARA SUMAR PRODUCTOS CON EL BOTO "+"
