@@ -471,7 +471,7 @@ function CarritoTotal(){
 		carrito.splice(i, 1)
 		
 		
-		//localStorage.removeItem('carrito')
+		
 		localStorage.setItem('carrito' , JSON.stringify(carrito))
 
 	  }
